@@ -18,7 +18,8 @@ import { SITE_NAME, THEME_COLOR } from './src/config/branding.ts';
  * Deploy-target adapter selection. Vercel is the default; set
  * `DEPLOY_TARGET=netlify` or `DEPLOY_TARGET=cloudflare` to build for those
  * platforms instead. All three keep `output: 'static'`, so every page is
- * prerendered and only the `prerender = false` API routes (the contact form
+ * prerendered and only the `
+ * ` API routes (the contact form
  * and newsletter) ship as the platform's serverless/edge function — on
  * Cloudflare Pages, as a Pages Function.
  */
