@@ -264,7 +264,7 @@ const siteConfig: SiteConfig = {
   // import this file, uses the same values. Change them there.
   name: SITE_NAME,
   description:
-    'A free, fast Astro 7 starter theme to build anything on: 44 designed components, 12 colour themes, dark mode, and built-in i18n.',
+    '在Gemini的指导下重开github page使用Astro 7构建的个人网站，展示了我的项目、博客和其他内容。',
   tagline: 'Astro 7 starter theme to build anything on',
   footerNote: 'Free & open source · MIT licensed',
   url: SITE_URL || SITE_URL_FALLBACK,
