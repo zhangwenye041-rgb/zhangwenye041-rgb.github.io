@@ -7,9 +7,9 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import icon from 'astro-icon';
 import tailwindcss from '@tailwindcss/vite';
-import vercel from '@astrojs/vercel';
-import netlify from '@astrojs/netlify';
-import cloudflare from '@astrojs/cloudflare';
+//import vercel from '@astrojs/vercel';
+//import netlify from '@astrojs/netlify';
+//import cloudflare from '@astrojs/cloudflare';
 import i18nConfig from './src/config/i18n.config.ts';
 import { SITE_URL_FALLBACK } from './src/config/site-url.ts';
 import { SITE_NAME, THEME_COLOR } from './src/config/branding.ts';
@@ -22,17 +22,17 @@ import { SITE_NAME, THEME_COLOR } from './src/config/branding.ts';
  * and newsletter) ship as the platform's serverless/edge function — on
  * Cloudflare Pages, as a Pages Function.
  */
-const deployTarget = process.env.DEPLOY_TARGET;
-function resolveAdapter() {
-  switch (deployTarget) {
-    case 'netlify':
-      return netlify();
-    case 'cloudflare':
-      return cloudflare();
-    default:
-      return vercel();
-  }
-}
+// const deployTarget = process.env.DEPLOY_TARGET;
+// function resolveAdapter() {
+//   switch (deployTarget) {
+//     case 'netlify':
+//       return netlify();
+//     case 'cloudflare':
+//       return cloudflare();
+//     default:
+//       return vercel();
+//   }
+// }
 
 /**
  * Build-time check that the site knows its own address.
@@ -252,8 +252,8 @@ const astroI18nOptions = i18nEnabled
 
 export default defineConfig({
   output: 'static',
-  adapter: resolveAdapter(),
-  site: process.env.SITE_URL || SITE_URL_FALLBACK,
+  //adapter: resolveAdapter(),
+  site: process.env.SITE_URL || 'https://zhangwenye041-rgb.github.io',
   ...(astroI18nOptions ? { i18n: astroI18nOptions } : {}),
 
   // Astro 7 changed the default to 'jsx', which strips whitespace between
