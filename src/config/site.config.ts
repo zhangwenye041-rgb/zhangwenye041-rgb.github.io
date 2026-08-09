@@ -264,32 +264,32 @@ const siteConfig: SiteConfig = {
   // import this file, uses the same values. Change them there.
   name: SITE_NAME,
   description:
-    '在Gemini的指导下重开github page使用Astro 7构建的个人网站，展示了我的项目、博客和其他内容。',
-  tagline: 'Astro 7 starter theme to build anything on',
-  footerNote: 'Free & open source · MIT licensed',
+    '章文烨的个人博客，分享前端开发、技术文章、学习笔记和项目经验。',
+  tagline: '志存高远，脚踏实地，敢想敢干，德才兼备',
+  footerNote: ' @ MCU LAB 2026 Vincent Zhang 章文烨',
   url: SITE_URL || SITE_URL_FALLBACK,
   // Generated at build time from `name`, `tagline` and the brand colour below.
   // Point this at a file in `public/` to use your own — it has to be a raster
   // (PNG or JPEG): social platforms don't render SVG share images.
   ogImage: '/og/default.png',
-  author: 'Hans Martens',
-  email: 'hello@hansmartens.dev',
+  author: '章文烨',
+  email: 'zhangwenye1930@outlook.com',
   address: {
     street: '',
-    city: 'Amsterdam',
+    city: 'Shenzhen',
     state: '',
     zip: '',
-    country: 'the Netherlands',
+    country: 'China',
   },
   socialLinks: [
-    'https://github.com/hansmartensdev',
-    'https://x.com/hansmartens_dev',
-    'https://www.linkedin.com/in/hansmartensdev',
-    'https://bsky.app/profile/hansmartensdev.bsky.social',
+    'https://github.com/zhangwenye041-rgb',
+    'https://space.bilibili.com/39728067',
+    'https://www.zhihu.com/people/Vincent-Zhang',
+    'https://www.douban.com/people/167175948/?_i=6263151f9BqayN',
   ],
   header: {
     // Flip to `true` to show the social icons (incl. GitHub) in the header.
-    showSocialLinks: false,
+    showSocialLinks: true,
   },
   twitter: {
     site: 'https://x.com/hansmartens_dev',
@@ -302,7 +302,7 @@ const siteConfig: SiteConfig = {
   authorImage: '/avatar.svg',
   blogImageOverlay: true,
   effects: {
-    cursorTrail: true,
+    cursorTrail: true, // 鼠标星轨特效
   },
   articleFeatures: {
     toc: {
@@ -313,7 +313,7 @@ const siteConfig: SiteConfig = {
       maxDepth: 3,
     },
     comments: {
-      enabled: false,
+      enabled: true,
       provider: 'giscus',
       giscus: {
         repo: 'owner/repo',
@@ -372,7 +372,7 @@ const siteConfig: SiteConfig = {
   i18n: i18nConfig,
   branding: {
     logo: {
-      alt: 'Astro Rocket',
+      alt: 'Vincent Zhang',
       // image: '/logo.svg', // Optional: set to a file in public/ to use a custom logo image instead of the letter monogram.
       imageUrl: '/favicon.svg',
     },

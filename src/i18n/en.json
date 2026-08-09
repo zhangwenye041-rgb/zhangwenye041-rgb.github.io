@@ -1,584 +1,486 @@
 {
   "nav": {
-    "skipToContent": "Skip to content",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "selectLanguage": "Select language",
-    "currentLanguage": "Current language",
-    "mainNav": "Main navigation",
-    "mobileNav": "Mobile navigation",
-    "toggleMenu": "Toggle menu",
-    "sectionNavigate": "Navigate",
-    "searchSite": "Search this site",
-    "sectionTheme": "Theme",
-    "sectionLanguage": "Language",
-    "sectionConnect": "Connect",
+    "skipToContent": "跳转到主要内容",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "selectLanguage": "选择语言",
+    "currentLanguage": "当前语言",
+    "mainNav": "主导航",
+    "mobileNav": "移动端导航",
+    "toggleMenu": "切换菜单",
+    "sectionNavigate": "页面导航",
+    "searchSite": "搜索本站",
+    "sectionTheme": "主题模式",
+    "sectionLanguage": "语言切换",
+    "sectionConnect": "社交互动",
     "items": {
-      "home": "Home",
-      "services": "Services",
-      "projects": "Projects",
-      "blog": "Blog",
-      "about": "About",
-      "contact": "Contact"
+      "home": "首页",
+      "services": "技术领域",
+      "projects": "项目展示",
+      "blog": "博客文章",
+      "about": "关于我",
+      "contact": "联系方式"
     }
   },
   "common": {
-    "readMore": "Read more",
-    "loading": "Loading…",
-    "backToTop": "Back to top",
-    "search": "Search",
-    "submit": "Submit",
-    "cancel": "Cancel",
-    "next": "Next",
-    "previous": "Previous",
-    "home": "Home"
+    "readMore": "阅读全文",
+    "loading": "加载中…",
+    "backToTop": "返回顶部",
+    "search": "搜索",
+    "submit": "提交",
+    "cancel": "取消",
+    "next": "下一页",
+    "previous": "上一页",
+    "home": "首页"
   },
   "blog": {
-    "title": "Blog",
-    "description": "Latest articles and updates",
-    "readingTime": "{minutes} min read",
-    "publishedOn": "Published on {date}",
-    "updatedOn": "Updated on {date}",
-    "writtenBy": "Written by {author}",
-    "tagsLabel": "Tags",
-    "featured": "Featured",
-    "draft": "Draft",
-    "noPostsFound": "No posts found.",
-    "tableOfContents": "Table of contents",
-    "shareThisPost": "Share this post",
-    "relatedPosts": "Related Posts",
-    "share": "Share:",
-    "shareOn": "Share on {platform}",
-    "copyLink": "Copy link",
-    "metaTitle": "Blog",
-    "metaDescription": "The Astro Rocket blog: practical guides to setting up, configuring, and building with the theme.",
-    "heroBadge": "All posts",
-    "heroDescription": "Everything you need to know about Astro\u00a0Rocket, explained in practical guides.",
-    "allPosts": "All posts",
-    "noPosts": "No posts found",
-    "pageMetaTitle": "Blog — Page {page}",
-    "pageMetaDescription": "Page {page} of {total} — practical guides to setting up, configuring, and building with Astro Rocket.",
-    "pageBadge": "Page {page} of {total}",
-    "newestPosts": "Newest posts",
-    "tagMetaTitle": "#{tag} — Blog",
-    "tagMetaDescription": "Posts tagged \"{tag}\".",
-    "tagBadge": "Tag",
-    "tagCountOne": "{count} post tagged \"{tag}\".",
-    "tagCountOther": "{count} posts tagged \"{tag}\".",
-    "tagEmpty": "No posts found for this tag.",
-    "tagBackToAll": "Back to all posts",
-    "onThisPage": "On this page",
-    "tocShow": "Show",
-    "tocHide": "Hide",
-    "backToBlog": "Back to Blog",
-    "updated": "Updated",
-    "rssFeed": "RSS Feed",
+    "title": "博客",
+    "description": "最新的技术探索、嵌入式开发笔记与总结",
+    "readingTime": "预计阅读时间 {minutes} 分钟",
+    "publishedOn": "发布于 {date}",
+    "updatedOn": "更新于 {date}",
+    "writtenBy": "作者：{author}",
+    "tagsLabel": "标签",
+    "featured": "精选",
+    "draft": "草稿",
+    "noPostsFound": "未找到相关文章。",
+    "tableOfContents": "文章目录",
+    "shareThisPost": "分享本文",
+    "relatedPosts": "相关推荐",
+    "share": "分享：",
+    "shareOn": "分享至 {platform}",
+    "copyLink": "复制链接",
+    "metaTitle": "博客文章",
+    "metaDescription": "记录技术细节、机器人工程实践与嵌入式系统踩坑指南。",
+    "heroBadge": "所有文章",
+    "heroDescription": "记录机器人工程、控制系统与嵌入式软硬件开发的实践沉淀。",
+    "allPosts": "全部文章",
+    "noPosts": "暂无文章",
+    "pageMetaTitle": "博客 — 第 {page} 页",
+    "pageMetaDescription": "第 {page} 页 / 共 {total} 页 — 包含技术记录与工程思考。",
+    "pageBadge": "第 {page} 页，共 {total} 页",
+    "newestPosts": "最新文章",
+    "tagMetaTitle": "标签 #{tag} — 博客",
+    "tagMetaDescription": "带有标签“{tag}”的所有文章。",
+    "tagBadge": "标签",
+    "tagCountOne": "找到 {count} 篇带有“{tag}”标签的文章。",
+    "tagCountOther": "找到 {count} 篇带有“{tag}”标签的文章。",
+    "tagEmpty": "该标签下暂无文章。",
+    "tagBackToAll": "返回所有文章",
+    "onThisPage": "本页导航",
+    "tocShow": "展开目录",
+    "tocHide": "折叠目录",
+    "backToBlog": "返回博客列表",
+    "updated": "最近更新",
+    "rssFeed": "RSS 订阅",
     "cta": {
-      "heading": "Ready to build?",
-      "description": "Clone Astro Rocket, pick a theme, and launch your next project in minutes.",
-      "button": "Get Started"
+      "heading": "准备好一起交流了吗？",
+      "description": "探索我的项目仓库或在 GitHub 上随时交流讨论。",
+      "button": "访问 GitHub"
     }
   },
   "comments": {
-    "title": "Comments",
-    "loadError": "Comments failed to load. Please refresh and try again.",
-    "requiresJs": "Comments require JavaScript to load."
+    "title": "评论讨论",
+    "loadError": "评论加载失败，请刷新页面重试。",
+    "requiresJs": "评论功能需要启用 JavaScript。"
   },
   "projects": {
-    "title": "Projects",
-    "description": "Things I've built",
-    "viewProject": "View project",
-    "viewSource": "View source",
-    "noProjectsFound": "No projects found.",
-    "metaTitle": "Projects",
-    "metaDescription": "Selected work — websites, tools, and open-source projects built by Astro Rocket.",
-    "heroBadge": "Selected work",
-    "heroDescription": "Work I'm most proud of.",
-    "allProjects": "All projects",
-    "pageMetaTitle": "Projects — Page {page}",
-    "pageMetaDescription": "Page {page} of {total} — selected work, tools, and open-source projects by Astro Rocket.",
-    "pageBadge": "Page {page} of {total}",
-    "tagMetaTitle": "#{tag} — Projects",
-    "tagMetaDescription": "Projects tagged \"{tag}\".",
-    "tagBadge": "Tag",
-    "tagCountOne": "{count} project tagged \"{tag}\".",
-    "tagCountOther": "{count} projects tagged \"{tag}\".",
-    "tagEmpty": "No projects found for this tag.",
-    "tagBackToAll": "Back to all projects",
-    "backToProjects": "Back to Projects",
-    "moreProjects": "More projects",
-    "ctaBadge": "Let's talk",
-    "ctaHeading": "Let's talk about what you need",
-    "ctaLead": "Every website I build is its own custom design, made with the care you see here. Tell me what you have in mind.",
-    "ctaPrimary": "Send a message",
-    "ctaSecondary": "More about me",
-    "closingHeading": "Have a project in mind?",
-    "closingLead": "Whether it's a new build or something that needs a fresh perspective — I'd love to hear about it."
+    "title": "项目展示",
+    "description": "我搭建并研发的软硬件项目与工程实践",
+    "viewProject": "查看项目",
+    "viewSource": "查看源码",
+    "noProjectsFound": "暂无项目记录。",
+    "metaTitle": "工程项目",
+    "metaDescription": "精选项目列表 — 涵盖控制算法、嵌入式硬件开发与机器视觉应用。",
+    "heroBadge": "代表作品",
+    "heroDescription": "记录最具代表性的系统设计与硬核实践。",
+    "allProjects": "全部项目",
+    "pageMetaTitle": "项目列表 — 第 {page} 页",
+    "pageMetaDescription": "第 {page} 页 / 共 {total} 页 — 机器人与嵌入式相关工程沉淀。",
+    "pageBadge": "第 {page} 页，共 {total} 页",
+    "tagMetaTitle": "标签 #{tag} — 项目",
+    "tagMetaDescription": "包含标签“{tag}”的所有项目。",
+    "tagBadge": "标签",
+    "tagCountOne": "找到 {count} 个带有“{tag}”标签的项目。",
+    "tagCountOther": "找到 {count} 个带有“{tag}”标签的项目。",
+    "tagEmpty": "该标签下未查找到项目。",
+    "tagBackToAll": "返回所有项目",
+    "backToProjects": "返回项目列表",
+    "moreProjects": "更多项目",
+    "ctaBadge": "联系交流",
+    "ctaHeading": "探讨技术细节与合作可能",
+    "ctaLead": "无论是控制算法调优、硬件选型还是边缘部署，欢迎交流思想与实践经验。",
+    "ctaPrimary": "发送邮件",
+    "ctaSecondary": "了解更多关于我",
+    "closingHeading": "有有趣的想法或项目想一起讨论？",
+    "closingLead": "无论是一个全新的硬核构想还是技术攻关，期待与你的交流。"
   },
   "pagination": {
-    "page": "Page {current} of {total}",
-    "label": "Pagination",
-    "previousPage": "Previous page",
-    "nextPage": "Next page"
+    "page": "第 {current} 页 / 共 {total} 页",
+    "label": "分页导航",
+    "previousPage": "上一页",
+    "nextPage": "下一页"
   },
   "errors": {
-    "pageNotFound": "Page not found",
-    "pageNotFoundMessage": "The page you're looking for doesn't exist or has moved.",
-    "goHome": "Go to homepage",
-    "metaTitle": "Page not found",
-    "metaDescription": "This page has moved, been removed, or never existed in the first place.",
-    "badge": "404 — page not found",
-    "titleLead": "Page not",
-    "titleHighlight": "found.",
-    "description": "This page has moved, been removed, or never existed in the first place. Let's get you back on track.",
-    "backHome": "Back to home",
-    "browseBlog": "Browse the blog",
-    "tryInstead": "Try one of these instead",
-    "projectsDesc": "Selected work and case studies.",
-    "blogDesc": "Notes on design, code, and the craft.",
-    "contactTitle": "Contact",
-    "contactDesc": "Start a conversation about your project."
+    "pageNotFound": "页面未找到",
+    "pageNotFoundMessage": "你访问的页面不存在或已被移动。",
+    "goHome": "返回首页",
+    "metaTitle": "404 - 页面不存在",
+    "metaDescription": "请求的路径无效，请核对地址或选择其他路径导航。",
+    "badge": "404 — 页面不存在",
+    "titleLead": "页面",
+    "titleHighlight": "未找到。",
+    "description": "您尝试访问的页面可能已被移除或改名，让我们重新出发。",
+    "backHome": "返回主页",
+    "browseBlog": "浏览技术博客",
+    "tryInstead": "或者尝试访问以下页面",
+    "projectsDesc": "查看我的工程项目与设计案例。",
+    "blogDesc": "阅读关于嵌入式、控制算法与系统的心得。",
+    "contactTitle": "联系方式",
+    "contactDesc": "发起邮件或社交平台对话。"
   },
   "newsletter": {
-    "heading": "Subscribe to the newsletter",
-    "description": "Get the latest posts in your inbox.",
-    "emailPlaceholder": "Enter your email",
-    "subscribe": "Subscribe",
-    "subscribing": "Subscribing…",
-    "success": "Thanks for subscribing!",
-    "genericError": "Something went wrong",
-    "notConfigured": "Not configured yet — set RESEND_API_KEY and RESEND_AUDIENCE_ID to switch this on. Only you can see this line.",
-    "unavailable": "Signups are not available right now.",
-    "error": "Subscription failed. Please try again."
+    "heading": "订阅最新动态",
+    "description": "第一时间通过邮件接收我的最新博客与技术分享。",
+    "emailPlaceholder": "输入你的电子邮箱",
+    "subscribe": "立即订阅",
+    "subscribing": "订阅中…",
+    "success": "感谢订阅！",
+    "genericError": "发生了一些错误",
+    "notConfigured": "邮件订阅功能尚未配置 API 密钥。",
+    "unavailable": "当前暂不可用。",
+    "error": "订阅失败，请稍后重试。"
   },
   "contact": {
-    "heading": "Get in touch",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject",
-    "message": "Message",
-    "send": "Send message",
-    "sending": "Sending…",
-    "success": "Message sent successfully!",
-    "genericError": "Something went wrong",
-    "notConfigured": "Not configured yet — set RESEND_API_KEY to switch this on. Only you can see this line.",
-    "unavailable": "This form is not available right now.",
-    "error": "Failed to send message. Please try again."
+    "heading": "保持联系",
+    "name": "姓名 / 昵称",
+    "email": "电子邮箱",
+    "subject": "主题",
+    "message": "留言内容",
+    "send": "发送消息",
+    "sending": "发送中…",
+    "success": "消息发送成功！",
+    "genericError": "发生了一些错误",
+    "notConfigured": "联系表单后端服务尚未配置完整。",
+    "unavailable": "当前表单暂不可用。",
+    "error": "发送失败，请稍后重试。"
   },
   "theme": {
-    "selectColourTheme": "Select colour theme",
-    "colourTheme": "Colour theme",
-    "colourMode": "Colour mode",
-    "modeTrigger": "Theme: {mode}. Click to change.",
-    "system": "System",
-    "light": "Light",
-    "dark": "Dark",
-    "currentlyLight": "Currently light",
-    "currentlyDark": "Currently dark",
-    "swatchLabel": "{name} theme"
+    "selectColourTheme": "选择配色主题",
+    "colourTheme": "配色主题",
+    "colourMode": "色彩模式",
+    "modeTrigger": "当前主题模式：{mode}。点击切换。",
+    "system": "跟随系统",
+    "light": "浅色模式",
+    "dark": "深色模式",
+    "currentlyLight": "当前为浅色模式",
+    "currentlyDark": "当前为深色模式",
+    "swatchLabel": "{name} 配色"
   },
   "search": {
-    "placeholder": "Search posts, projects, and pages…",
-    "inputLabel": "Search query",
-    "resultsLabel": "Search results",
-    "hint": "Start typing to search the site.",
-    "noResults": "No results for “{query}”",
-    "unavailable": "The search index is generated at build time and isn’t available in <code class=\"rounded bg-secondary px-1.5 py-0.5 text-xs\">astro dev</code>.<br />Run <code class=\"rounded bg-secondary px-1.5 py-0.5 text-xs\">pnpm build &amp;&amp; pnpm preview</code> to try it locally."
+    "placeholder": "搜索文章、项目或页面…",
+    "inputLabel": "搜索关键词",
+    "resultsLabel": "搜索结果",
+    "hint": "输入文字即可全站搜素。",
+    "noResults": "未找到与 “{query}” 相关的结果",
+    "unavailable": "搜索索引在构建时生成，请在 preview 环境下测试此功能。"
   },
   "video": {
-    "playLabel": "Play video: {title}",
-    "watchOn": "Watch on YouTube"
+    "playLabel": "播放视频：{title}",
+    "watchOn": "在 Bilibili / YouTube 上观看"
   },
   "footer": {
-    "copyright": "© {year} {siteName}",
-    "credit": "Theme by <a href=\"https://hansmartens.dev\" class=\"transition-colors hover:text-foreground\" target=\"_blank\" rel=\"noopener noreferrer\">Hans Martens Dev</a>",
-    "builtWith": "Built with Astro Rocket",
+    "copyright": "© {year} {siteName}. 保留所有权利。",
+    "credit": "由Gemini指导搭建与维护",
+    "builtWith": "基于 Astro 架构驱动",
     "groups": {
-      "site": "Site",
-      "topics": "Topics",
-      "projects": "Projects",
-      "questions": "Got questions?"
+      "site": "网站导航",
+      "topics": "技术分类",
+      "projects": "硬核项目",
+      "questions": "交流咨询"
     },
-    "followOn": "Follow us on {platform}"
+    "followOn": "在 {platform} 上关注我"
   },
   "pages": {
     "about": {
       "meta": {
-        "title": "About — Free Open-Source Astro 7 Theme",
-        "description": "What Astro Rocket is and how it's built: a free Astro 7 starter theme with 44 designed components, 12 colour themes, i18n, and dark mode."
+        "title": "关于我",
+        "description": "机器人工程专业学生，主攻控制算法、嵌入式硬件开发与边缘视觉部署。"
       },
       "hero": {
-        "badge": "About",
-        "titleLead": "Astro Rocket —",
-        "typingWords": ["Lightning-fast", "Starter theme", "44 Components", "12 Themes", "Dark Mode", "Built-in i18n"],
-        "typingWordsMobile": ["Lightning-fast", "Starter theme", "12 Themes", "Dark Mode", "Built-in i18n"],
-        "description": "A free, open-source Astro 7 starter\u00a0theme to build anything on."
+        "badge": "关于我",
+        "titleLead": "探索与践行 —",
+        "typingWords": ["机器人工程", "嵌入式系统", "闭环 PID 控制", "边缘 AI 视觉", "现代开发环境"],
+        "typingWordsMobile": ["机器人工程", "嵌入式系统", "闭环 PID 控制", "边缘 AI 视觉"],
+        "description": "知存高远，脚踏实地，敢想敢干，德才兼备。"
       },
       "whatYouGet": {
-        "badge": "What you get",
-        "heading": "Everything a real website needs",
-        "lead": "The component library is the heart of the theme. Everything else a real website needs is already on board.",
+        "badge": "技术领域",
+        "heading": "专注的核心能力与技术栈",
+        "lead": "致力于构建软硬件协同的自动化系统与嵌入式工程实践。",
         "items": [
           {
             "icon": "component",
-            "title": "44 designed components",
-            "description": "From buttons to hero sections: typed, accessible, consistent, and documented in a live showcase."
+            "title": "嵌入式软硬件",
+            "description": "精通 STM32、MSPM0 等微控制器，熟练编写外设驱动与多任务时间片轮询调度器。"
           },
           {
             "icon": "layout",
-            "title": "Pages to start from",
-            "description": "Home, about, services, contact, blog, projects, and 404, fully designed and responsive, ready to make your own."
+            "title": "控制系统与算法",
+            "description": "深刻理解 PID 闭环控制算法、编码器测速、电机驱动控制与运动学建模。"
           },
           {
             "icon": "palette",
-            "title": "12 colour themes",
-            "description": "Switch the whole site's palette live from the header. Light and dark mode included."
+            "title": "边缘视觉部署",
+            "description": "基于 MaixCam 等平台进行目标检测模型训练与物理坐标转换校准。"
           },
           {
             "icon": "book-open",
-            "title": "Blog with table of contents",
-            "description": "MDX, RSS, tags, comments, related posts, and a scroll-spy table of contents. Write and publish."
+            "title": "系统工程与环境",
+            "description": "熟练掌握 Linux/WSL2 环境配置、Docker 容器部署与个人开发工作流搭建。"
           },
           {
             "icon": "image",
-            "title": "Projects with galleries",
-            "description": "A portfolio section with image galleries, video slides, tags, and its own table of contents."
+            "title": "软硬件协同调试",
+            "description": "熟练使用示波器、逻辑分析仪及串口协议调优，具备扎实的硬件故障排查能力。"
           },
           {
             "icon": "globe",
-            "title": "Full i18n, opt-in",
-            "description": "Blog, projects, navigation, forms, and 404: all localized per locale. Off by default, at zero cost when unused."
-          },
-          {
-            "icon": "search",
-            "title": "Site search",
-            "description": "Fast static search (Pagefind) with a ⌘K modal: zero JavaScript until it's opened."
-          },
-          {
-            "icon": "trending-up",
-            "title": "SEO toolkit",
-            "description": "Metadata, sitemaps, structured data, and OG images, correct out of the box."
-          },
-          {
-            "icon": "server",
-            "title": "Forms & deploy",
-            "description": "Spam-protected contact and newsletter forms, and one-switch deploys to Vercel, Netlify, or Cloudflare."
+            "title": "持续学习与探索",
+            "description": "热衷于跨学科技术实践，保持对前沿工具与系统架构的学习热情。"
           }
         ]
       },
       "principles": {
-        "badge": "Design Principles",
-        "heading": "Built with intention",
-        "lead": "Every decision in Astro Rocket, from component structure to default config, is driven by the same three principles.",
+        "badge": "工程理念",
+        "heading": "格物致知，知行合一",
+        "lead": "每一行代码、每一块 PCB 板，都建立在扎实的理论推导与实践验证之上。",
         "items": [
-          { "icon": "zap", "title": "Performance First", "description": "Zero JavaScript by default. Every component is optimised for speed, Core Web Vitals, and lean output." },
-          { "icon": "award", "title": "Developer Experience", "description": "TypeScript throughout, sensible defaults, and a component library you can drop straight into any page." },
-          { "icon": "rocket", "title": "Modern from the Ground Up", "description": "Astro 7, Tailwind CSS 4, and a clean architecture that's easy to extend and maintain." }
+          { "icon": "zap", "title": "性能与实时性", "description": "追求高效率的底层响应，优化代码执行路径，保障系统实时运行与稳定控制。" },
+          { "icon": "award", "title": "工程严谨性", "description": "模块化架构设计，规范的代码封装与环境隔离，注重可靠性与可扩展性。" },
+          { "icon": "rocket", "title": "实践出真知", "description": "从理论公式推导到物理硬件联调，在反复试验与调试中解决真实工程问题。" }
         ]
       },
       "stack": {
-        "badge": "Tools & Tech",
-        "title": "The Stack",
-        "description": "The technologies powering Astro Rocket, chosen for performance, great developer experience, and long-term reliability."
+        "badge": "技术工具",
+        "title": "常用工具链",
+        "description": "技术研发、仿真调优与日常开发常用的软硬件平台与工具环境。"
       },
       "faq": {
-        "badge": "Good to know",
-        "heading": "Frequently asked questions",
-        "lead": "Everything you need to know before getting started.",
+        "badge": "常见问题",
+        "heading": "关于我与这个网站",
+        "lead": "了解我的学习背景与搭建网站的初衷。",
         "cards": [
           {
             "icon": "rocket",
-            "title": "About Astro",
+            "title": "关于个人专业与方向",
             "items": [
-              { "question": "What is Astro?", "answer": "Astro is a modern web framework built for content-driven sites. It ships zero JavaScript by default — only sending what the page actually needs. The result is fast load times, excellent Core Web Vitals scores, and lean, maintainable code." },
-              { "question": "Why build with Astro?", "answer": "Astro is the right tool for content-heavy sites: minimal JavaScript, clean HTML, great SEO out of the box, and a developer experience that stays out of your way. It's lean, purposeful, and built to last." },
-              { "question": "What can I build with Astro Rocket?", "answer": "Portfolios, business sites, marketing pages, blogs, documentation sites — any content-driven project. Astro Rocket gives you the structure, components, and defaults to hit the ground running." },
-              { "question": "Is Astro Rocket listed on the official Astro themes directory?", "answer": "Yes. <a href=\"https://astro.build/themes/details/astro-rocket/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Astro Rocket</a> is listed on the official Astro themes directory as a free, production-ready theme." },
-              { "question": "Will Astro Rocket keep up with new Astro releases?", "answer": "Yes. Astro Rocket is actively maintained and updated to track new Astro releases. Follow along on the blog or watch the GitHub repository for updates." }
-            ]
-          },
-          {
-            "icon": "code-2",
-            "title": "Using the theme",
-            "items": [
-              { "question": "Is it free to use?", "answer": "Yes, completely free. Astro Rocket is MIT licensed — use it for personal and commercial projects, no attribution required." },
-              { "question": "How do I switch themes?", "answer": "Change a single line in your config. Astro Rocket ships with 12 hand-crafted colour themes — swap between them instantly without touching a line of CSS." },
-              { "question": "Does it support TypeScript?", "answer": "Yes, TypeScript is used throughout. All components, configs, and utilities are fully typed." },
-              { "question": "How do I add my own language for i18n?", "answer": "Astro Rocket's i18n is config-driven. Add your locale to the i18n config file, create a matching translation file, and the routing and UI adapt automatically." },
-              { "question": "Where do I report bugs or suggest features?", "answer": "Open an issue or start a discussion on the <a href=\"https://github.com/hansmartensdev/astro-rocket\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">GitHub repository</a>. Contributions and feedback are always welcome." }
+              { "question": "你的专业方向是什么？", "answer": "我是机器人工程专业的本科生，核心研究方向为嵌入式开发、自动化控制系统算法以及边缘 AI 视觉技术的实际落地。" },
+              { "question": "主要使用哪些硬件平台？", "answer": "常用微控制器包括 STM32 系列 (F1/F4) 以及 TI MSPM0 等；视觉与边缘计算端使用过 MaixCam 等硬件架构。" },
+              { "question": "构建这个网站的目的是什么？", "answer": "用于记录学习笔记、整理项目工程文档、分享个人技术见解，并作为展示工程作品的个人基地。" }
             ]
           }
         ]
       },
       "openSource": {
-        "badge": "Open Source",
-        "heading": "Built in the open",
-        "description": "Astro Rocket is free, open source, and MIT licensed. Browse the source, open issues, submit PRs, or just clone it and build something great.",
-        "button": "View on GitHub",
+        "badge": "开源与分享",
+        "heading": "在实践中共同成长",
+        "description": "喜欢尝试各类开源工具与工程项目，欢迎在 GitHub 上交流讨论。",
+        "button": "前往 GitHub 主页",
         "cards": [
-          { "title": "Made by Hans Martens Dev", "text": "Astro Rocket was designed and built by <a href=\"https://hansmartens.dev\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Hans Martens Dev</a> — a freelance Astro developer who uses it as the foundation for client projects." },
-          { "title": "MIT License", "text": "Free to use in personal and commercial projects. No attribution required, though a star on GitHub is always appreciated." },
-          { "title": "Actively maintained", "text": "The theme is kept up to date with new Astro releases and regularly improved based on community feedback." }
+          { "title": "技术探索", "text": "致力于将自动化控制理论与嵌入式硬件完美结合。" },
+          { "title": "开源共享", "text": "分享个人写过的通用驱动库、调度框架与学习心得。" }
         ]
       },
       "cta": {
-        "badge": "Get started",
-        "heading": "Ready to build?",
-        "description": "Clone Astro Rocket, pick a theme, and launch your next project in minutes.",
-        "button": "Get Started"
+        "badge": "欢迎交流",
+        "heading": "有想法随时探讨？",
+        "description": "无论是技术踩坑、项目合作还是经验交流，都欢迎联系我。",
+        "button": "发送消息"
       }
     },
     "services": {
       "meta": {
-        "title": "Services — Web Design, Development & Optimisation",
-        "description": "Freelance web design, development, and optimisation: sleek, lightning-fast custom Astro websites. A free first talk, one clear proposal, one fixed price."
+        "title": "技术领域 — 嵌入式开发、控制系统与边缘视觉",
+        "description": "机器人工程、嵌入式系统硬件驱动、闭环算法调优与视觉系统部署。"
       },
-      "includedLabel": "What you get",
+      "includedLabel": "能力涵盖",
       "hero": {
-        "badge": "Services",
-        "titleLead": "Web design, development,",
-        "titleHighlight": "and optimisation",
-        "description": "Three services, one product: a sleek, lightning-fast custom Astro website you're proud to put your name on.",
-        "jumpLabels": ["Web design", "Web development", "Web optimisation"]
+        "badge": "技术领域",
+        "titleLead": "嵌入式开发、控制算法",
+        "titleHighlight": "与边缘计算部署",
+        "description": "立足机器人工程，打通从底层电路、MCU Firmware 到上层视觉算法的工程链路。",
+        "jumpLabels": ["嵌入式开发", "控制系统", "边缘AI视觉"]
       },
       "design": {
-        "badge": "Design",
-        "heading": "Web design",
+        "badge": "嵌入式开发",
+        "heading": "MCU 固件与外设驱动",
         "paragraphs": [
-          "Web design is how your website looks and feels: the layout, the colours, the images, and the way visitors find their way around.",
-          "I design every website around your business — your brand, your content, and the customers you want to reach — so it makes a strong first impression and guides people straight to what matters. Clean, modern, and made to work on every screen, from a desktop monitor to a phone."
+          "深入微控制器底层逻辑，熟练配置时钟、GPIO、中断、串口、I2C 及 SPI 通信协议。",
+          "基于模版与 SysConfig 快速部署，编写时间片轮询任务调度器，高效整合各类传感器与执行器模块。"
         ],
         "included": [
-          {
-            "lead": "A design that's yours",
-            "text": "shaped around your business, your brand, and the customers you want to reach."
-          },
-          {
-            "lead": "A strong first impression",
-            "text": "a clean, modern look that shows people who you are the moment your page opens."
-          },
-          {
-            "lead": "Clear navigation",
-            "text": "a layout that guides visitors straight to what matters to them."
-          },
-          {
-            "lead": "A design for every screen",
-            "text": "looks and works beautifully on phone, tablet, and desktop."
-          },
-          {
-            "lead": "Your content at its best",
-            "text": "your words and images given a layout that makes them easy to read and good to look at."
-          }
+          { "lead": "主流 MCU 平台", "text": "熟练掌握 STM32 及 TI MSPM0 芯片软硬件体系。" },
+          { "lead": "外设驱动整合", "text": "集成陀螺仪(MPU6050)、显示屏(OLED)、测距(VL53L0X)等模块。" },
+          { "lead": "轻量调度架构", "text": "编写协同式时间片调度器，保障多任务高效执行。" }
         ],
-        "ctaLabel": "Discuss a design project"
+        "ctaLabel": "查看项目实操案例"
       },
       "development": {
-        "badge": "Development",
-        "heading": "Web development",
+        "badge": "控制系统",
+        "heading": "闭环控制算法与调优",
         "paragraphs": [
-          "Web development is the building of your website: turning the design into the code that runs in your visitor's browser.",
-          "I build with Astro, a modern framework trusted for some of the fastest websites online. That makes your site quick to load, safe, and easy to look after for years to come. And it's yours from day one, with the code, the domain, and the hosting all in your name."
+          "运用自动控制原理，进行编码器数据采集与滤波处理，实现高精度的速度与位置闭环控制。",
+          "设计 weighted PID 控制算法，应用在差速转向车辆与平衡机构中，实现稳定的动态响应。"
         ],
         "included": [
-          {
-            "lead": "A lightning-fast website",
-            "text": "built with Astro, the framework behind some of the fastest websites online."
-          },
-          {
-            "lead": "A secure, reliable website",
-            "text": "one that stays safe and keeps working, year after year."
-          },
-          {
-            "lead": "Full ownership",
-            "text": "the code, the domain, and the hosting all in your name from day one."
-          },
-          {
-            "lead": "Care after launch",
-            "text": "your website kept updated and secure with the monthly care plan, while you run your business."
-          },
-          {
-            "lead": "Room to grow",
-            "text": "space to add new pages and features whenever your business needs them."
-          }
+          { "lead": "闭环 PID 控制", "text": "针对位置、速度进行实时闭环调优与算法迭代。" },
+          { "lead": "传感器数据融合", "text": "进行信号平滑与坐标变换，提高控制精确度。" }
         ],
-        "ctaLabel": "See recent projects"
+        "ctaLabel": "查看硬件控制案例"
       },
       "performance": {
-        "badge": "Optimisation",
-        "heading": "Web optimisation",
+        "badge": "边缘计算",
+        "heading": "机器视觉与坐标映射",
         "paragraphs": [
-          "Web optimisation is the work that makes your website perform: loading quickly, ranking well in search, and working for everyone.",
-          "I build speed, SEO, and accessibility in from the very first line, not as an afterthought. That means your website is easy for Google to find and understand, opens fast for every visitor, and can be used by everyone who lands on it."
+          "在边缘端硬件（如 MaixCam）上部署目标检测模型（如 YOLO），实现高帧率实时识别。",
+          "通过像素坐标到物理坐标系映射与标定，将视觉数据直接打通并反馈给底盘控制层。"
         ],
         "included": [
-          {
-            "lead": "A website Google and AI can find",
-            "text": "built so search engines and AI assistants can read, understand, and recommend your pages."
-          },
-          {
-            "lead": "Speed on every device",
-            "text": "pages that stay quick, even on a phone or a slower connection."
-          },
-          {
-            "lead": "A website for everyone",
-            "text": "accessible for every visitor, whatever their device or ability."
-          },
-          {
-            "lead": "High performance scores",
-            "text": "strong marks on Google's own speed and quality checks (Lighthouse)."
-          },
-          {
-            "lead": "Optimisation from day one",
-            "text": "speed, SEO, and accessibility built in from the very first line."
-          }
+          { "lead": "视觉模型部署", "text": "部署轻量级目标跟踪模型，实现高效识别。" },
+          { "lead": "空间坐标校准", "text": "线性与非线性像素-物理坐标精准转换。" }
         ],
-        "ctaLabel": "Start a project"
+        "ctaLabel": "了解边缘视觉应用"
       },
       "process": {
-        "badge": "How it works",
-        "heading": "How a project runs",
-        "lead": "From your first message to a live website.",
+        "badge": "开发流程",
+        "heading": "工程项目的研发步骤",
+        "lead": "从构想推导到软硬件实物调试的全流程。",
         "steps": [
-          { "title": "First contact", "description": "You send a message through the contact form. I reply within a working day, and we plan a free, informational talk about what you need. No obligations." },
-          { "title": "Proposal", "description": "After our talk you get one clear document: what I'll build, when it's ready, and the fixed price. You decide with everything on the table." },
-          { "title": "Design & build", "description": "I work in short cycles. You follow the progress on a staging link, and you see your website take shape." },
-          { "title": "Launch & support", "description": "Your website goes live on your own domain and hosting, in your name. Afterwards I stay reachable, and there's a monthly care plan if you want regular updates." }
+          { "title": "需求与方案设计", "description": "明确控制目标，评估芯片算力、传感器参数与外设需求。" },
+          { "title": "软硬件搭建与驱动编写", "description": "搭设硬件电路，编写底层驱动与模块通信逻辑。" },
+          { "title": "控制算法调优与联调", "description": "配合示波器与串口数据上报，调整 PID 参数，优化动态响应。" },
+          { "title": "系统整合与测试", "description": "长时间运行测试，确保软硬件架构抗干扰与稳定性。" }
         ]
       },
       "faq": {
-        "badge": "Questions",
-        "heading": "Questions and answers",
-        "lead": "The things clients ask before we start.",
+        "badge": "答疑交流",
+        "heading": "技术探讨与交流",
+        "lead": "关于嵌入式与机器人开发的一些常见问题。",
         "cards": [
           {
             "icon": "tag",
-            "title": "Before we start",
+            "title": "技术实现相关",
             "items": [
-              { "question": "What does a website cost?", "answer": "Every project gets one fixed price, agreed before we start. No hourly billing, no surprises afterwards. The free talk — and the free check, if there's already a website — tells me what your project needs, and you get the price in one clear proposal." },
-              { "question": "How long does a project take?", "answer": "That depends on the size of the website. The proposal names the timeline together with the price, so you know both before we start." },
-              { "question": "What happens with my current website?", "answer": "It stays online until the new one is ready. Your content, your web address, and your Google rankings come along. I check your current website before our first talk, so you get clear answers from the start." },
-              { "question": "Do I need to arrange hosting or a domain?", "answer": "No. I set up the hosting and the domain for you, in your own name. If you already have a domain, we simply keep it." },
-              { "question": "Do we need to meet in person?", "answer": "It's not needed. Most projects run entirely by phone, video, and email. I work with clients worldwide, and time zones are rarely a problem." }
-            ]
-          },
-          {
-            "icon": "user",
-            "title": "Working with me",
-            "items": [
-              { "question": "Are you a company or agency?", "answer": "I'm a one-person business: a freelancer, not an agency. You work directly with the person doing the work, from the first talk to the finished website. No sales team, no account managers, no handoffs." },
-              { "question": "Can I change the website myself after launch?", "answer": "You can simply send me your changes, and the monthly care plan exists exactly for that. If you want to edit the website yourself, say so in the first talk and I set the site up for it." },
-              { "question": "Do you also build webshops?", "answer": "No. Big online shops are the one thing I don't build. Everything else that needs a custom Astro website, I build: tell me in the first talk what you have in mind, and I'll be honest about whether I'm the right builder for it." },
-              { "question": "Is the website really mine?", "answer": "Completely. The domain, the hosting, and the code are in your name from day one. If you ever want to move on, you take everything with you: you're never locked in." },
-              { "question": "What happens if something breaks after launch?", "answer": "Very little can break: the website has no plugins and no database to fail. And I stay reachable after launch; for regular updates and monitoring there is the monthly care plan." }
+              { "question": "如何选择适合的微控制器？", "answer": "根据项目对实时性、算力、外设接口数量以及功耗的要求进行选型，如基础控制选择 STM32F1/MSPM0，复杂任务升级至 F4 或 RTOS。" }
             ]
           }
         ]
       },
       "cta": {
-        "badge": "Let's talk",
-        "heading": "Let's talk about what you need",
-        "description": "The first talk is free and informative, with no obligations: by phone, video, or email. You get honest answers, and after the talk one clear proposal with a timeline and a fixed price.",
-        "primary": "Send a message",
-        "secondary": "More about me"
+        "badge": "欢迎交流",
+        "heading": "交流想法或技术细节",
+        "description": "随时欢迎交流关于机器人工程、嵌入式系统与控制算法的探讨。",
+        "primary": "发送邮件",
+        "secondary": "了解更多关于我"
       }
     },
     "contact": {
       "meta": {
-        "title": "Contact",
-        "description": "Starting something new? I design and build new websites from scratch — tell me about your project and I'll get back to you within 1 business day."
+        "title": "联系方式",
+        "description": "有技术问题交流，或者想法探讨？欢迎随时给我发送邮件或在社交网络上联系我。"
       },
       "hero": {
-        "badge": "Start a project",
-        "titleLead": "Tell me about your",
-        "titleHighlight": "new project",
-        "description": "I'd love to hear from you. Send a message with the form below, or reach out on one of the other channels below."
+        "badge": "发起联系",
+        "titleLead": "探讨想法与",
+        "titleHighlight": "技术交流",
+        "description": "非常高兴能够与你取得联系，可以通过以下表单或任意社交平台给我留言。"
       },
-      "formTitle": "Project details",
-      "channelsTitle": "Other channels",
-      "channelsSubtitle": "Prefer a direct channel? Pick whichever works best.",
-      "emailLabel": "Email",
-      "emailNote": "Drop us a line",
-      "socialNote": "Follow along",
-      "basedIn": "Based in {country}"
+      "formTitle": "发送留言",
+      "channelsTitle": "其他联系通道",
+      "channelsSubtitle": "你也可以通过以下平台直接找到我：",
+      "emailLabel": "电子邮箱",
+      "emailNote": "欢迎随时给我致信",
+      "socialNote": "关注我的最新动态",
+      "basedIn": "常驻地区：{country}"
     },
     "home": {
       "meta": {
-        "title": "Free open-source Astro 7 theme",
-        "description": "A free, fast Astro 7 starter theme to build anything on: 44 designed components, 12 colour themes, dark mode, and built-in i18n."
+        "title": "知存高远，脚踏实地，敢想敢干，德才兼备",
+        "description": "机器人工程专业个人主页 | 专注嵌入式系统、闭环控制与边缘 AI 视觉。"
       },
       "hero": {
-        "badge": "Available for new projects",
-        "titleLine1": "Astro Rocket —",
-        "titleLine2": "Web Designer",
-        "titleLine3": "& Developer",
-        "description": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components, 12 colour themes, and dark mode.",
-        "descriptionMobile": "A free, lightning-fast Astro 7 starter theme to build anything on: 44 designed components and 12 colour themes.",
-        "github": "Get it on GitHub",
-        "getStarted": "Get started"
+        "badge": "欢迎交流与探讨",
+        "titleLine1": "你好👋 这里是章文烨",
+        "titleLine2": "机器人工程专业在读",
+        "titleLine3": "& 科创爱好者",
+        "description": "机器人工程专业在读，专注前沿领域学习与硬核工程实践。",
+        "descriptionMobile": "机器人工程专业在读，专注嵌入式系统、闭环控制与边缘 AI 视觉。",
+        "github": "前往 GitHub",
+        "getStarted": "探索我的项目"
       },
       "services": {
-        "badge": "What I do",
-        "heading": "Design, build, optimise",
-        "lead": "Every project gets all three services.",
-        "learnMore": "Learn more",
+        "badge": "我所专注的",
+        "heading": "嵌入式、控制算法与边缘 AI",
+        "lead": "注重软硬件一体化设计与稳定高效的系统实现。",
+        "learnMore": "了解技术细节",
         "cards": [
-          { "icon": "layout", "title": "Web Design", "description": "Interfaces that feel obvious. Layouts shaped around your content, your brand, and how people actually read on a screen." },
-          { "icon": "code", "title": "Web Development", "description": "Sites built to last. Astro, Tailwind, and a clean architecture: fast on day one, easy to maintain on day 500." },
-          { "icon": "trending-up", "title": "Web Optimisation", "description": "SEO, Core Web Vitals, and accessibility, built in from day one so your site ranks, loads well, and works for every visitor." }
+          { "icon": "layout", "title": "嵌入式 Firmware", "description": "精通 STM32 / MSPM0 外设驱动编写、寄存器与 HAL 库调优、协同式时间片调度架构。" },
+          { "icon": "code", "title": "闭环控制算法", "description": "熟练设计与调优闭环 PID 控制算法，结合编码器与传感器实现高精度速度与位置跟踪。" },
+          { "icon": "trending-up", "title": "边缘视觉 & 部署", "description": "部署轻量级目标检测模型，实现像素坐标到物理坐标映射校准，赋能智能硬件。" }
         ]
       },
       "workWithMe": {
-        "badge": "Work with me",
-        "heading": "Let's build your website",
-        "lead": "What you get when we work together.",
+        "badge": "工程习惯",
+        "heading": "我的开发与工程原则",
+        "lead": "从第一行底层代码到整体系统运作。",
         "cards": [
-          { "icon": "palette", "title": "Custom design", "description": "Designed around your business, your content, and your customers." },
-          { "icon": "zap", "title": "A lightning-fast website", "description": "Pages that open instantly, on every phone and every connection." },
-          { "icon": "search", "title": "Found by Google and AI", "description": "Every page built so search engines and AI assistants read it cleanly and customers can find you." },
-          { "icon": "shield-check", "title": "Zero maintenance", "description": "Kept up to date and secure with the care plan, so you can focus on your business." }
+          { "icon": "palette", "title": "模块化驱动架构", "description": "低耦合的驱动设计，便于在不同 MCU 架构间快速移植与复用。" },
+          { "icon": "zap", "title": "极速与高实时性", "description": "精简中断服务，合理划分任务优先级，保障控制系统的实时响应。" },
+          { "icon": "search", "title": "严谨调试与数据验证", "description": "配合示波器与串口波形图分析，用数据说话，精确定位故障。" },
+          { "icon": "shield-check", "title": "现代开发流", "description": "使用 Git 版本控制、Docker 容器化与系统化环境配置，保持开发效率。" }
         ],
-        "cta": "Read my services page"
+        "cta": "了解我的技术能力"
       },
       "portfolio": {
-        "badge": "Selected work",
-        "heading": "Projects I've built",
-        "lead": "A selection of recent work.",
-        "viewAll": "View all projects"
+        "badge": "精选工程",
+        "heading": "近期研发与搭建的项目",
+        "lead": "涵盖智能车底盘、闭环控制平台与边缘视觉应用。",
+        "viewAll": "查看全部项目"
       },
       "testimonials": {
-        "badge": "Testimonials",
-        "heading": "What clients say",
-        "lead": "Real words from finished projects.",
+        "badge": "心得与反馈",
+        "heading": "技术合作与交流",
+        "lead": "来自竞赛团队与工程项目的实际合作体验。",
         "items": [
-          { "quote": "The new site launched on time and hit every goal we set. Performance improved dramatically — load times dropped and the feedback from our customers has been overwhelmingly positive.", "name": "Alex Morgan", "role": "Founder, Bright Studio" },
-          { "quote": "Straightforward from first conversation to final handover. The right questions were asked, we were kept in the loop throughout, and the end result exceeded what we imagined. Would recommend without hesitation.", "name": "Sarah Chen", "role": "CEO, Luma Agency" }
+          { "quote": "在自动化小车控制系统中，高效的算法调优与底层驱动让整体运行极为稳定，极大地提升了调试效率。", "name": "工程竞赛队友", "role": "嵌入式软件工程师" }
         ]
       },
       "aboutTeaser": {
-        "badge": "About me",
-        "headingLine1": "Designer, developer,",
-        "headingLine2": "and blogger.",
-        "para1WithLocation": "Sixteen years of hands-on experience, based in {location} and available for clients worldwide. I build with Astro because it aligns with how I think about the web: lean, purposeful, and built to last.",
-        "para1NoLocation": "Sixteen years of hands-on experience and available for clients worldwide. I build with Astro because it aligns with how I think about the web: lean, purposeful, and built to last.",
-        "para2": "On the blog, I share the ideas and decisions that shape my work.",
-        "moreAboutMe": "More about me",
-        "statsIntro": "A few things about me.",
-        "stat1": "16 Years Experience",
-        "stat2": "Building with Astro",
-        "stat3": "Working worldwide",
-        "basedIn": "Based in"
+        "badge": "关于我",
+        "headingLine1": "专注于机器人工程，",
+        "headingLine2": "记录思考与实践。",
+        "para1WithLocation": "机器人工程专业本科在读，常驻 {location}。热衷于软硬件协同开发，喜欢探究系统底层逻辑与工程应用。",
+        "para1NoLocation": "机器人工程专业本科在读。热衷于软硬件协同开发，喜欢探究系统底层逻辑与工程应用。",
+        "para2": "在博客中，我会记录开发过程中的技术细节、踩坑经验与系统设计心得。",
+        "moreAboutMe": "查看完整关于我",
+        "statsIntro": "关于我的一些状态：",
+        "stat1": "机器人工程专业",
+        "stat2": "专注嵌入式 & 控制",
+        "stat3": "探索边缘 AI 视觉",
+        "basedIn": "常驻地区：中国 深圳 / 江门"
       },
       "blog": {
-        "badge": "From the blog",
-        "heading": "Featured",
-        "viewAll": "View all posts"
+        "badge": "最新博客",
+        "heading": "精选文章",
+        "viewAll": "查看所有文章"
       },
       "cta": {
-        "badge": "Let's talk",
-        "heading": "Let's talk about what you need",
-        "description": "The first talk is free and informative, with no obligations. And from the first conversation to the final delivery, it's me.",
-        "primary": "Send a message",
-        "secondary": "More about me"
+        "badge": "保持沟通",
+        "heading": "欢迎交流技术与想法",
+        "description": "如果你对嵌入式系统、自动化控制或项目合作有任何兴趣，欢迎随时联系我。",
+        "primary": "发送邮件",
+        "secondary": "了解更多关于我"
       }
     }
   }

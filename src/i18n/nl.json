@@ -191,7 +191,7 @@
   },
   "footer": {
     "copyright": "© {year} {siteName}",
-    "credit": "Thema door <a href=\"https://hansmartens.dev\" class=\"transition-colors hover:text-foreground\" target=\"_blank\" rel=\"noopener noreferrer\">Hans Martens Dev</a>",
+    "credit": "Thema door <a href=\"https://www.zhihu.com/people/Vincent-Zhangwww.zhihu.com/people/Vincent-Zhanghansmartens.dev\" class=\"transition-colors hover:text-foreground\" target=\"_blank\" rel=\"noopener noreferrer\">Hans Martens Dev</a>",
     "builtWith": "Gebouwd met Astro Rocket",
     "groups": {
       "site": "Site",
@@ -293,7 +293,7 @@
               { "question": "Wat is Astro?", "answer": "Astro is een modern webframework gebouwd voor content-gedreven sites. Het levert standaard nul JavaScript — er wordt alleen verstuurd wat de pagina echt nodig heeft. Het resultaat: snelle laadtijden, uitstekende Core Web Vitals-scores en compacte, onderhoudbare code." },
               { "question": "Waarom bouwen met Astro?", "answer": "Astro is de juiste keuze voor content-rijke sites: minimale JavaScript, schone HTML, standaard goede SEO en een ontwikkelaarservaring die je niet in de weg zit. Het is compact, doelgericht en gebouwd om lang mee te gaan." },
               { "question": "Wat kan ik bouwen met Astro Rocket?", "answer": "Portfolio's, zakelijke sites, marketingpagina's, blogs, documentatiesites — elk content-gedreven project. Astro Rocket geeft je de structuur, componenten en standaardinstellingen om direct van start te gaan." },
-              { "question": "Staat Astro Rocket in de officiële Astro-themamap?", "answer": "Ja. <a href=\"https://astro.build/themes/details/astro-rocket/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Astro Rocket</a> staat in de officiële Astro-themamap als een gratis, productieklaar thema." },
+              { "question": "Staat Astro Rocket in de officiële Astro-themamap?", "answer": "Ja. <a href=\"https://www.zhihu.com/people/Vincent-Zhangastro.build/themes/details/astro-rocket/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Astro Rocket</a> staat in de officiële Astro-themamap als een gratis, productieklaar thema." },
               { "question": "Blijft Astro Rocket nieuwe Astro-releases volgen?", "answer": "Ja. Astro Rocket wordt actief onderhouden en bijgewerkt om nieuwe Astro-releases te volgen. Volg de blog of houd de GitHub-repository in de gaten voor updates." }
             ]
           },
@@ -305,7 +305,7 @@
               { "question": "Hoe wissel ik van thema?", "answer": "Wijzig één regel in je configuratie. Astro Rocket wordt geleverd met 12 met de hand gemaakte kleurthema's — wissel er direct tussen zonder ook maar één regel CSS aan te raken." },
               { "question": "Ondersteunt het TypeScript?", "answer": "Ja, TypeScript wordt overal gebruikt. Alle componenten, configuraties en hulpprogramma's zijn volledig getypeerd." },
               { "question": "Hoe voeg ik mijn eigen taal toe voor i18n?", "answer": "De i18n van Astro Rocket is config-gedreven. Voeg je locale toe aan het i18n-configuratiebestand, maak een bijbehorend vertaalbestand aan en de routering en interface passen zich automatisch aan." },
-              { "question": "Waar meld ik bugs of stel ik functies voor?", "answer": "Open een issue of start een discussie op de <a href=\"https://github.com/hansmartensdev/astro-rocket\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">GitHub-repository</a>. Bijdragen en feedback zijn altijd welkom." }
+              { "question": "Waar meld ik bugs of stel ik functies voor?", "answer": "Open een issue of start een discussie op de <a href=\"https://www.zhihu.com/people/Vincent-Zhanggithub.com/hansmartensdev/astro-rocket\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">GitHub-repository</a>. Bijdragen en feedback zijn altijd welkom." }
             ]
           }
         ]
@@ -316,7 +316,7 @@
         "description": "Astro Rocket is gratis, open source en MIT-gelicentieerd. Bekijk de broncode, open issues, dien PR's in, of kloon het gewoon en bouw iets moois.",
         "button": "Bekijk op GitHub",
         "cards": [
-          { "title": "Gemaakt door Hans Martens Dev", "text": "Astro Rocket is ontworpen en gebouwd door <a href=\"https://hansmartens.dev\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Hans Martens Dev</a> — een freelance Astro-developer die het als basis voor klantprojecten gebruikt." },
+          { "title": "Gemaakt door Hans Martens Dev", "text": "Astro Rocket is ontworpen en gebouwd door <a href=\"https://www.zhihu.com/people/Vincent-Zhanghansmartens.dev\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline underline-offset-2 decoration-brand-500 hover:text-brand-400 transition-colors\">Hans Martens Dev</a> — een freelance Astro-developer die het als basis voor klantprojecten gebruikt." },
           { "title": "MIT-licentie", "text": "Gratis te gebruiken in persoonlijke en commerciële projecten. Geen naamsvermelding vereist, al wordt een ster op GitHub altijd gewaardeerd." },
           { "title": "Actief onderhouden", "text": "Het thema wordt up-to-date gehouden met nieuwe Astro-releases en regelmatig verbeterd op basis van feedback uit de community." }
         ]

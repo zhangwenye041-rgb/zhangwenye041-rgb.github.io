@@ -19,14 +19,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hansmartensdev/astro-rocket"
+    "url": "https://github.com/zhangwenye041-rgb"
   },
-  "homepage": "https://github.com/hansmartensdev/astro-rocket#readme",
+  "homepage": "https://github.com/zhangwenye041-rgb#readme",
   "bugs": {
-    "url": "https://github.com/hansmartensdev/astro-rocket/issues"
+    "url": "https://github.com/zhangwenye041-rgb/issues"
   },
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host 127.0.0.1 --port 3000",
     "build": "astro build",
     "build:netlify": "DEPLOY_TARGET=netlify astro build",
     "build:cloudflare": "DEPLOY_TARGET=cloudflare astro build",
