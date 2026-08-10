@@ -264,8 +264,8 @@ const siteConfig: SiteConfig = {
   // import this file, uses the same values. Change them there.
   name: SITE_NAME,
   description:
-    '章文烨的个人博客，分享前端开发、技术文章、学习笔记和项目经验。',
-  tagline: '志存高远，脚踏实地，敢想敢干，德才兼备',
+    '章文烨的个人主页，用于分享技术文章、学习心得和项目经验。',
+  tagline: '文烨的小站',
   footerNote: ' @ MCU LAB 2026 Vincent Zhang 章文烨',
   url: SITE_URL || SITE_URL_FALLBACK,
   // Generated at build time from `name`, `tagline` and the brand colour below.
@@ -292,8 +292,8 @@ const siteConfig: SiteConfig = {
     showSocialLinks: true,
   },
   twitter: {
-    site: 'https://x.com/hansmartens_dev',
-    creator: '@hansmartens_dev',
+    site: 'https://x.com/VincentZhang1930',
+    creator: '@VincentZhang1930',
   },
   verification: {
     google: GOOGLE_SITE_VERIFICATION,
