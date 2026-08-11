@@ -9,7 +9,13 @@
  *
  * Change them here. `site.config.ts` reads from this file.
  */
-export const SITE_NAME = 'Vincent Zhang Page 文烨的小站';
+export const SITE_NAME = 'Vincent Zhang Page';
 
 /** Browser toolbar colour, and the fill behind the favicon letter. */
 export const THEME_COLOR = '#0083fe';
+
+// 新增：明确 favicon 文件名，避免 CDN/缓存歧义（在 public/ 中放置同名文件并提交）
+export const FAVICON_SVG = '/favicon.svg';
+
+// 如果你有自定义 logo 文件，也可显式导出以供引用
+export const LOGO_IMAGE = '/logo.svg';

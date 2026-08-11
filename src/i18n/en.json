@@ -209,13 +209,13 @@
       },
       "hero": {
         "badge": "关于我",
-        "titleLead": "探索与践行 —",
-        "typingWords": ["机器人工程", "嵌入式系统", "闭环 PID 控制", "边缘 AI 视觉", "现代开发环境"],
+        "titleLead": "知行合一，",
+        "typingWords": ["机器人工程", "嵌入式系统", "英语学习", "骑行"],
         "typingWordsMobile": ["机器人工程", "嵌入式系统", "闭环 PID 控制", "边缘 AI 视觉"],
-        "description": "知存高远，脚踏实地，敢想敢干，德才兼备。"
+        "description": "志存高远，脚踏实地；敢想敢干，德才兼备。"
       },
       "whatYouGet": {
-        "badge": "技术领域",
+        "badge": "学习领域",
         "heading": "专注的核心能力与技术栈",
         "lead": "致力于构建软硬件协同的自动化系统与嵌入式工程实践。",
         "items": [
@@ -406,15 +406,15 @@
     },
     "home": {
       "meta": {
-        "title": "知存高远，脚踏实地，敢想敢干，德才兼备",
+        "title": "文烨的小站",
         "description": "机器人工程专业个人主页 | 专注嵌入式系统、闭环控制与边缘 AI 视觉。"
       },
       "hero": {
-        "badge": "欢迎交流与探讨",
+        "badge": "MCU LAB",
         "titleLine1": "你好👋 这里是章文烨",
         "titleLine2": "机器人工程专业在读",
         "titleLine3": "& 科创爱好者",
-        "description": "机器人工程专业在读，专注前沿领域学习与硬核工程实践。",
+        "description": "专注前沿领域学习与硬核工程实践。",
         "descriptionMobile": "机器人工程专业在读，专注嵌入式系统、闭环控制与边缘 AI 视觉。",
         "github": "前往 GitHub",
         "getStarted": "探索我的项目"
@@ -430,6 +430,7 @@
           { "icon": "trending-up", "title": "边缘视觉 & 部署", "description": "部署轻量级目标检测模型，实现像素坐标到物理坐标映射校准，赋能智能硬件。" }
         ]
       },
+      
       "workWithMe": {
         "badge": "工程习惯",
         "heading": "我的开发与工程原则",
@@ -458,10 +459,10 @@
       },
       "aboutTeaser": {
         "badge": "关于我",
-        "headingLine1": "专注于机器人工程，",
-        "headingLine2": "记录思考与实践。",
-        "para1WithLocation": "机器人工程专业本科在读，常驻 {location}。热衷于软硬件协同开发，喜欢探究系统底层逻辑与工程应用。",
-        "para1NoLocation": "机器人工程专业本科在读。热衷于软硬件协同开发，喜欢探究系统底层逻辑与工程应用。",
+        "headingLine1": "知行合一，",
+        "headingLine2": "专注记录思考与实践。",
+        "para1WithLocation": "机器人工程专业本科在读，常驻 {location}。",
+        "para1NoLocation": "热衷于软硬件协同开发，喜欢探究系统底层逻辑与工程应用。",
         "para2": "在博客中，我会记录开发过程中的技术细节、踩坑经验与系统设计心得。",
         "moreAboutMe": "查看完整关于我",
         "statsIntro": "关于我的一些状态：",
